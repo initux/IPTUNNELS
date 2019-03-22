@@ -8,6 +8,7 @@ This script will let you setup your own secure Tunneling server in just a few se
 
 ## Usage
 
+### KVM Server
 First, get the script and make it executable :
 
 ```bash
@@ -21,6 +22,24 @@ Then run it :
 ./kvm.sh
 ```
 
+
+### OpenVZ Server
+First, get the script and make it executable :
+
+```bash
+curl -O https://raw.githubusercontent.com/malikshi/IPTUNNELS/master/openvz.sh
+chmod +x openvz.sh
+```
+
+Then run it :
+
+```sh
+./openvz.sh
+```
+
+
+# Log Installation
+log- installation will be stored in /root/log-install.txt and can be accessed via webserver http://IP:81/log-install.txt
 
 Other Lisence :
 [Angristan](https://raw.githubusercontent.com/Angristan/openvpn-install/master/LICENSE)
