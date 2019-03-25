@@ -126,7 +126,7 @@ EOF
 Description=Shadowsocks-libev Server Service
 After=network.target
 [Service]
-ExecStart=/usr/bin/ss-server -c /etc/shadowsocks-libev/config.json -u
+ExecStart=/usr/bin/ss-server -c /etc/shadowsocks-libev/config.json -u -v
 ExecReload=/bin/kill -HUP \$MAINPID
 Restart=on-failure
 [Install]
